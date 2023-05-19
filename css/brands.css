@@ -83,8 +83,14 @@ button:hover,
   background-color: #2457F5;
 }
 .button.button-default:hover,
-.button.button-default:focus {
+.button.button-default:focus, .button.button-obsidian:hover, .button.button-obsidian:focus {
   filter: brightness(90%);
+}
+
+/* Obsidian */
+.button.button-obsidian {
+  color: #ffffff;
+  background-color: #7235ff;
 }
 
 /* Amazon */
